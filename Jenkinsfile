@@ -5,7 +5,7 @@ pipeline{
             steps{
                 echo "Hello David!. This is your first Jenkins Freestyle project"
                 sh '''
-                      git clone https://github.com/Ops-Smithe/designo-website.git
+                      git clone https://github.com/Ops-Smith/designo-website.git
                    '''
             }
         }
