@@ -8,10 +8,10 @@ pipeline{
             steps{
                 sh'''
                     sudo apt update
-                    // sudo apt-get install nginx -y
-                    // sudo systemctl enable nginx
-                    // sudo systemctl start nginx
-                    // sudo systemctl status nginx
+                    sudo apt-get install nginx -y
+                    sudo systemctl enable nginx
+                    sudo systemctl start nginx
+                    sudo systemctl status nginx
                     sudo chown -R jenkins:jenkins /var/www/html
                     cd /var/www
                     sudo rm -rf html
